@@ -32,15 +32,15 @@ import javafx.util.Duration;
 import java.util.Map;
 
 /**
- *  I think fxgl is very interesting;
+ *  FXGL is very interesting;
  *  I studied the teacher's course.
- *  I added 2 new levels to the Mario game;
+ *  add 2 new levels to the Mario game;
  *  Level6 and Level7
  */
 public class MairoApp extends GameApplication {
 
     private static final int MAX_LEVEL = 7;
-    private static final int STARTING_LEVEL =0;
+    private static final int STARTING_LEVEL = 5;
 
     /**
      * 每局结束都需要这个关卡显示,懒加载;
