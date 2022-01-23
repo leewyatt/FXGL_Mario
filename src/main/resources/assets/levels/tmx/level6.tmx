@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="42" height="10" tilewidth="70" tileheight="70" infinite="0" nextlayerid="6" nextobjectid="133">
+ <properties>
+  <property name="bgImageName" value="ice_forest.png"/>
+  <property name="star1time" type="float" value="27"/>
+ </properties>
+ <tileset firstgid="1" name="base_w70_h70_s2" tilewidth="70" tileheight="70" spacing="2" margin="2" tilecount="156" columns="12">
+  <image source="base_70_s2.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="157" name="building_w70_h70_s0" tilewidth="70" tileheight="70" tilecount="98" columns="14">
+  <image source="building_70_s0.png" width="980" height="490"/>
+ </tileset>
+ <tileset firstgid="255" name="candy_w70_h70_s0" tilewidth="70" tileheight="70" tilecount="98" columns="14">
+  <image source="candy_70_s0.png" width="980" height="490"/>
+ </tileset>
+ <tileset firstgid="353" name="ice_w70_h70_s0" tilewidth="70" tileheight="70" tilecount="98" columns="14">
+  <image source="ice_70_s0.png" width="980" height="490"/>
+ </tileset>
+ <tileset firstgid="451" name="industry_w70_h70_s0" tilewidth="70" tileheight="70" tilecount="98" columns="14">
+  <image source="industry_70_s0.png" width="980" height="490"/>
+ </tileset>
+ <layer id="5" name="块层 1" width="42" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,437,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,437,0,0,
+0,431,432,433,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,431,432,433,0,
+0,445,446,447,0,0,0,0,0,0,0,0,0,0,0,0,0,361,382,384,0,0,0,399,0,0,0,0,0,0,0,0,0,0,0,0,0,0,445,446,447,0,
+0,0,426,0,0,0,358,356,372,0,0,16,16,0,0,0,0,0,397,396,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,392,393,394,426,0,0,
+0,0,425,0,0,0,0,0,450,399,0,0,0,0,0,0,0,0,0,0,436,0,0,0,354,0,0,0,0,0,0,0,0,0,0,65,406,407,408,439,436,0,
+355,356,356,356,356,356,356,356,356,356,356,356,356,0,0,0,0,0,0,0,356,356,356,356,374,0,0,0,0,0,0,0,0,0,0,355,356,356,356,356,357,0
+</data>
+ </layer>
+ <objectgroup id="2" name="对象层 1">
+  <object id="11" type="platform" x="0" y="629.5" width="910.5" height="70"/>
+  <object id="12" type="platform" x="1401" y="628.667" width="278" height="70.6667"/>
+  <object id="14" type="platform" x="2449.34" y="628.667" width="422.333" height="72"/>
+  <object id="22" type="tempPlatform" x="1796.33" y="519.333" width="70" height="40"/>
+  <object id="25" type="tempPlatform" x="1923" y="468.001" width="70" height="40"/>
+  <object id="28" type="doorBot" x="2674.34" y="571.667" width="41.3333" height="59.2122"/>
+  <object id="29" type="exitSign" x="2449.34" y="556.667" width="67.3333" height="66.6667"/>
+  <object id="30" type="platform" x="1680" y="560" width="70" height="70"/>
+  <object id="47" type="tempPlatform" x="2049.33" y="524.667" width="70" height="40"/>
+  <object id="49" type="tempPlatform" x="2170" y="490" width="70" height="40"/>
+  <object id="50" type="platform" x="423.333" y="488.667">
+   <polygon points="0,0 202.667,0.666667 198.667,43.3333 170.788,66.4848 50.6667,68 14,53.3333 -3.33333,30"/>
+  </object>
+  <object id="57" type="spike" x="629.636" y="628.909">
+   <polygon points="0,0 11.2727,-34.9091 22.9091,-1.63636"/>
+  </object>
+  <object id="58" type="spike" x="653.455" y="628.727">
+   <polygon points="0,0 10.5455,-16.9091 21.8182,-0.727273"/>
+  </object>
+  <object id="59" type="spike" x="677.273" y="628.182">
+   <polygon points="0,0 11.0909,-42.9091 21.6364,0"/>
+  </object>
+  <object id="63" type="spike" x="1260.55" y="491.273">
+   <polygon points="0,0 22.1818,-0.909091 12.5455,15.4545"/>
+  </object>
+  <object id="64" type="spike" x="1284" y="491.273">
+   <polygon points="0,0 10.5455,26.1818 21.8182,-1.63636"/>
+  </object>
+  <object id="65" type="spike" x="1308.36" y="490.727">
+   <polygon points="0,0 22,0.181818 9.81818,16.5455"/>
+  </object>
+  <object id="66" type="spike" x="1331.82" y="492.182">
+   <polygon points="0,0 9.63636,30.9091 19.6364,-1.27273"/>
+  </object>
+  <object id="67" type="spike" x="1354.55" y="491.273">
+   <polygon points="0,0 10.1818,16.7273 21.6364,-1.09091"/>
+  </object>
+  <object id="68" type="spike" x="1378.18" y="491.273">
+   <polygon points="0,0 21.6364,-1.45455 10.7273,43.2727"/>
+  </object>
+  <object id="86" type="movePlatform" x="981" y="243.5">
+   <properties>
+    <property name="isHor" type="bool" value="false"/>
+    <property name="millis" type="int" value="2500"/>
+    <property name="speed" type="int" value="130"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="88" type="platform" x="1260" y="490.545">
+   <polygon points="0,0 49.6364,-8.72727 89.0909,-8.90909 140.182,-2.54545"/>
+  </object>
+  <object id="90" type="button" x="2240" y="402">
+   <point/>
+  </object>
+  <object id="91" type="doorTop" x="2675" y="555" width="39.3333" height="16"/>
+  <object id="92" type="tempPlatform" x="2240" y="490" width="70" height="40"/>
+  <object id="93" type="platform" x="768.25" y="538.5" width="140.5" height="19.75"/>
+  <object id="94" type="movePlatform" x="1304.33" y="368.583">
+   <properties>
+    <property name="isHor" type="bool" value="true"/>
+    <property name="millis" type="int" value="1300"/>
+    <property name="speed" type="int" value="80"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="95" type="platform" x="1609.54" y="488.104" width="70.6667" height="1.66667"/>
+  <object id="97" type="spike" x="1612" y="486.862">
+   <polygon points="0,0 10.5455,-32 21.0909,-0.727273"/>
+  </object>
+  <object id="100" type="spike" x="1636.91" y="486.316">
+   <polygon points="0,0 8.54545,-13.8182 18.7273,0.363636"/>
+  </object>
+  <object id="101" type="spike" x="1659.27" y="487.589">
+   <polygon points="0,0 9.45455,-43.8182 20.3636,-1.81818"/>
+  </object>
+  <object id="102" type="coin" x="1554.33" y="252.667">
+   <point/>
+  </object>
+  <object id="104" type="coin" x="651" y="402.167">
+   <point/>
+  </object>
+  <object id="106" type="coin" x="1399.67" y="417.333">
+   <point/>
+  </object>
+  <object id="107" type="coin" x="1686.67" y="372.667">
+   <point/>
+  </object>
+  <object id="113" type="platform" x="1189.25" y="420" width="70" height="40.5"/>
+  <object id="114" type="iceWater" x="910" y="630">
+   <point/>
+  </object>
+  <object id="115" type="iceWater" x="980" y="630">
+   <point/>
+  </object>
+  <object id="116" type="iceWater" x="1050" y="630">
+   <point/>
+  </object>
+  <object id="117" type="iceWater" x="1120" y="630">
+   <point/>
+  </object>
+  <object id="118" type="iceWater" x="1190" y="630">
+   <point/>
+  </object>
+  <object id="119" type="iceWater" x="1260" y="630">
+   <point/>
+  </object>
+  <object id="120" type="iceWater" x="1330" y="630">
+   <point/>
+  </object>
+  <object id="121" type="tempPlatform" x="312.5" y="554.5" width="70" height="40"/>
+  <object id="122" type="iceWater" x="1750" y="630">
+   <point/>
+  </object>
+  <object id="123" type="iceWater" x="1820" y="630">
+   <point/>
+  </object>
+  <object id="124" type="iceWater" x="1890" y="630">
+   <point/>
+  </object>
+  <object id="125" type="iceWater" x="1960" y="630">
+   <point/>
+  </object>
+  <object id="126" type="iceWater" x="2030" y="630">
+   <point/>
+  </object>
+  <object id="127" type="iceWater" x="2100" y="630">
+   <point/>
+  </object>
+  <object id="128" type="iceWater" x="2170" y="630">
+   <point/>
+  </object>
+  <object id="129" type="iceWater" x="2240" y="630">
+   <point/>
+  </object>
+  <object id="130" type="iceWater" x="2310" y="630">
+   <point/>
+  </object>
+  <object id="131" type="iceWater" x="2380" y="630">
+   <point/>
+  </object>
+ </objectgroup>
+</map>

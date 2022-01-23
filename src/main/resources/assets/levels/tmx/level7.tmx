@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.3" orientation="orthogonal" renderorder="right-down" width="42" height="10" tilewidth="70" tileheight="70" infinite="0" nextlayerid="3" nextobjectid="166">
+ <properties>
+  <property name="bgImageName" value="laser_forest.png"/>
+  <property name="star1time" type="float" value="60"/>
+ </properties>
+ <tileset firstgid="1" name="industry_w70_h70_s0" tilewidth="70" tileheight="70" tilecount="98" columns="14">
+  <image source="industry_70_s0.png" width="980" height="490"/>
+ </tileset>
+ <tileset firstgid="99" name="base_70_s2" tilewidth="70" tileheight="70" spacing="2" margin="2" tilecount="156" columns="12">
+  <image source="base_70_s2.png" width="914" height="936"/>
+ </tileset>
+ <tileset firstgid="255" name="tiles_spritesheet" tilewidth="70" tileheight="70" spacing="2" tilecount="156" columns="12">
+  <image source="tiles_spritesheet.png" width="914" height="936"/>
+ </tileset>
+ <layer id="1" name="块层 1" width="42" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,17,48,0,0,47,48,0,0,47,48,0,0,47,48,0,0,47,17,0,0,0,0,0,76,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,17,0,48,47,0,0,48,47,0,0,48,47,0,0,48,47,0,17,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,44,43,43,43,43,43,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,76,0,76,0,76,0,76,0,0,0,0,26,17,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,26,0,0,0,0,0,0,0,0,0,0,0,0,16,30,0,0,
+0,0,0,0,0,0,49,0,0,0,0,0,0,0,0,0,0,0,17,0,0,0,0,75,0,0,0,0,0,17,0,0,49,0,0,21,17,0,0,0,0,75,
+0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,21,17,17,0,0,0,0,75,17,0,0,0,0,49,0,17,20,0,0,0,0,
+0,0,0,0,0,17,0,0,0,0,0,75,20,0,0,0,0,0,0,0,21,17,17,0,0,0,0,0,0,17,0,0,49,0,0,0,0,17,0,0,0,0,
+17,0,0,0,0,17,49,0,0,0,49,17,17,20,0,27,0,0,0,21,17,17,17,0,0,0,0,0,0,17,49,0,0,49,49,0,27,17,0,0,0,0,
+17,17,17,17,17,17,17,17,17,17,17,17,17,17,36,36,36,36,36,17,17,17,17,17,17,17,17,17,17,17,27,27,27,27,27,17,17,17,0,51,50,0
+</data>
+ </layer>
+ <objectgroup id="2" name="对象层 1">
+  <object id="3" type="platform" x="0" y="560" width="70" height="140"/>
+  <object id="6" type="platform" x="350" y="490" width="70" height="140"/>
+  <object id="8" type="platform" x="70" y="630" width="700" height="70"/>
+  <object id="9" type="platform" x="699.333" y="560.667" width="70" height="17.3333"/>
+  <object id="10" type="platform" x="770.667" y="560" width="70" height="140"/>
+  <object id="12" type="platform" x="791.25" y="501.5" width="46.75" height="47.5"/>
+  <object id="13" type="platform" x="841" y="492.5">
+   <polygon points="0,0 0,68 69.5,68.5"/>
+  </object>
+  <object id="17" type="platform" x="841" y="559.5" width="70" height="140"/>
+  <object id="18" type="platform" x="910" y="630" width="70" height="70"/>
+  <object id="21" type="platform" x="980.5" y="629.5" width="349" height="40.5"/>
+  <object id="22" type="platform" x="1540.5" y="419">
+   <polygon points="0,0 -210.5,211 -0.5,212"/>
+  </object>
+  <object id="24" type="platform" x="1540" y="420" width="70" height="210"/>
+  <object id="26" type="platform" x="1610" y="630" width="490" height="70"/>
+  <object id="27" type="platform" x="2030" y="350" width="70" height="280"/>
+  <object id="28" type="platform" x="1631.67" y="360.333" width="48.3333" height="59.6667"/>
+  <object id="30" type="platform" x="1982" y="433" width="46.5" height="46"/>
+  <object id="31" type="platform" x="1750" y="210" width="70" height="70"/>
+  <object id="32" type="platform" x="2030" y="0" width="70" height="210"/>
+  <object id="33" type="platform" x="2519.75" y="350" width="70.25" height="70"/>
+  <object id="34" type="platform" x="2520" y="420" width="69" height="70"/>
+  <object id="35" type="platform" x="2590" y="490.667" width="69.5" height="209.333"/>
+  <object id="36" type="platform" x="2450" y="630" width="140" height="70"/>
+  <object id="38" type="platform" x="2240" y="350" width="69.3333" height="18.3333"/>
+  <object id="39" type="platform" x="2379" y="420.5" width="70" height="18"/>
+  <object id="40" type="platform" x="2240" y="490" width="69.3333" height="18"/>
+  <object id="41" type="platform" x="2309.5" y="560" width="140.5" height="18"/>
+  <object id="42" type="platform" x="2100" y="560" width="70" height="18.3333"/>
+  <object id="44" type="platform" x="490" y="420" width="69.3333" height="40.3333"/>
+  <object id="45" type="platform" x="420" y="350" width="70.3333" height="18"/>
+  <object id="49" type="platform" x="770.333" y="140" width="68.9997" height="17.6667"/>
+  <object id="50" type="platform" x="839.667" y="1" width="70" height="140"/>
+  <object id="51" type="platform" x="770" y="140" width="1608.67" height="70"/>
+  <object id="53" type="platform" x="918.667" y="210.667" width="49.6667" height="51.3333"/>
+  <object id="54" type="laser" x="769.75" y="519.75">
+   <properties>
+    <property name="color" value="#1EA7E1"/>
+    <property name="dir" value="left"/>
+    <property name="pauseTime" type="int" value="1500"/>
+    <property name="range" type="float" value="350"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="55" type="laser" x="938" y="280">
+   <properties>
+    <property name="color" value="#E86A17"/>
+    <property name="dir" value="down"/>
+    <property name="pauseTime" type="int" value="2200"/>
+    <property name="range" type="float" value="320"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="57" type="laser" x="1076" y="280">
+   <properties>
+    <property name="color" value="#FFCC00"/>
+    <property name="dir" value="down"/>
+    <property name="pauseTime" type="int" value="2600"/>
+    <property name="range" type="float" value="320"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="58" type="laser" x="1216" y="280">
+   <properties>
+    <property name="color" value="#73CD4B"/>
+    <property name="dir" value="down"/>
+    <property name="pauseTime" type="int" value="2200"/>
+    <property name="range" type="float" value="350"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="59" type="laser" x="1356" y="280">
+   <properties>
+    <property name="color" value="#1EA7E1"/>
+    <property name="dir" value="down"/>
+    <property name="pauseTime" type="int" value="2600"/>
+    <property name="range" type="float" value="320"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="61" type="laser" x="1960" y="447">
+   <properties>
+    <property name="color" value="#1EA7E1"/>
+    <property name="dir" value="left"/>
+    <property name="pauseTime" type="int" value="5000"/>
+    <property name="range" type="float" value="280"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="66" type="exitSign" gid="319" x="2660" y="280" width="70" height="70"/>
+  <object id="67" type="doorTop" gid="300" x="2730" y="210" width="70" height="70"/>
+  <object id="68" type="doorBot" gid="312" x="2730" y="280" width="70" height="70"/>
+  <object id="69" type="button" x="2830.93" y="108.508">
+   <point/>
+  </object>
+  <object id="70" type="coin" x="1012" y="490">
+   <point/>
+  </object>
+  <object id="71" type="coin" x="802.333" y="420.667">
+   <point/>
+  </object>
+  <object id="73" type="platform" x="2660" y="280" width="140.333" height="70"/>
+  <object id="74" type="platform" x="2730" y="630" width="139.447" height="17.1667"/>
+  <object id="79" type="spike" x="2113.75" y="668.5">
+   <polygon points="0,0 -14.5,13 7.75,12"/>
+  </object>
+  <object id="80" type="spike" x="2122.75" y="680.5">
+   <polygon points="-1.75,-0.75 7.5,-13 17.75,-0.25"/>
+  </object>
+  <object id="81" type="spike" x="2138.75" y="677.5">
+   <polygon points="0,0 13.5,-15.75 29.5,0"/>
+  </object>
+  <object id="85" type="spike" x="2184.25" y="668.25">
+   <polygon points="0,0 -14.5,13 7.75,12"/>
+  </object>
+  <object id="86" type="spike" x="2193.25" y="680.25">
+   <polygon points="-1.75,-0.75 7.5,-13 17.75,-0.25"/>
+  </object>
+  <object id="87" type="spike" x="2209.25" y="677.25">
+   <polygon points="0,0 13.5,-15.75 29.5,0"/>
+  </object>
+  <object id="88" type="spike" x="2254" y="667.25">
+   <polygon points="0,0 -14.5,13 7.75,12"/>
+  </object>
+  <object id="89" type="spike" x="2263" y="679.25">
+   <polygon points="-1.75,-0.75 7.5,-13 17.75,-0.25"/>
+  </object>
+  <object id="90" type="spike" x="2279" y="676.25">
+   <polygon points="0,0 13.5,-15.75 29.5,0"/>
+  </object>
+  <object id="91" type="spike" x="2324.25" y="667.5">
+   <polygon points="0,0 -14.5,13 7.75,12"/>
+  </object>
+  <object id="92" type="spike" x="2333.25" y="679.5">
+   <polygon points="-1.75,-0.75 7.5,-13 17.75,-0.25"/>
+  </object>
+  <object id="93" type="spike" x="2349.25" y="676.5">
+   <polygon points="0,0 13.5,-15.75 29.5,0"/>
+  </object>
+  <object id="94" type="spike" x="2394.25" y="667.75">
+   <polygon points="0,0 -14.5,13 7.75,12"/>
+  </object>
+  <object id="95" type="spike" x="2403.25" y="679.75">
+   <polygon points="-1.75,-0.75 7.5,-13 17.75,-0.25"/>
+  </object>
+  <object id="96" type="spike" x="2419.25" y="676.75">
+   <polygon points="0,0 13.5,-15.75 29.5,0"/>
+  </object>
+  <object id="97" type="spike" x="1680.5" y="228.5">
+   <polygon points="0,0 12.5,14 24.5,0.5"/>
+  </object>
+  <object id="99" type="spike" x="1700.25" y="231">
+   <polygon points="0,0 9.5,13.5 23.25,0.75"/>
+  </object>
+  <object id="100" type="spike" x="1716.75" y="234.25">
+   <polygon points="0,0 17,16.5 32.5,-0.25"/>
+  </object>
+  <object id="101" type="spike" x="1750.5" y="300.25">
+   <polygon points="0,0 12.5,14 24.5,0.5"/>
+  </object>
+  <object id="102" type="spike" x="1770.25" y="302.75">
+   <polygon points="0,0 9.5,13.5 23.25,0.75"/>
+  </object>
+  <object id="103" type="spike" x="1786.75" y="306">
+   <polygon points="0,0 17,16.5 32.5,-0.25"/>
+  </object>
+  <object id="104" type="platform" x="776.5" y="511" width="14.75" height="27.75"/>
+  <object id="105" type="platform" x="769.75" y="509.25" width="6.75" height="31"/>
+  <object id="108" type="platform" x="1967.5" y="440.75" width="14.75" height="27.75"/>
+  <object id="109" type="platform" x="1960.75" y="439" width="6.75" height="31"/>
+  <object id="115" type="laser" x="2868.75" y="379">
+   <properties>
+    <property name="color" value="#192771"/>
+    <property name="dir" value="left"/>
+    <property name="pauseTime" type="int" value="3500"/>
+    <property name="range" type="float" value="280"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="116" type="laser" x="2475.5" y="70.25">
+   <properties>
+    <property name="color" value="#E167E1"/>
+    <property name="dir" value="down"/>
+    <property name="pauseTime" type="int" value="3000"/>
+    <property name="range" type="float" value="315"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="117" type="spike" x="2030.42" y="230.583">
+   <polygon points="0,0 12.5,14 24.5,0.5"/>
+  </object>
+  <object id="118" type="spike" x="2050.17" y="233.083">
+   <polygon points="0,0 9.5,13.5 23.25,0.75"/>
+  </object>
+  <object id="119" type="spike" x="2066.67" y="236.333">
+   <polygon points="0,0 17,16.5 32.5,-0.25"/>
+  </object>
+  <object id="121" type="coin" x="768" y="291">
+   <point/>
+  </object>
+  <object id="122" type="coin" x="2529" y="538.334">
+   <point/>
+  </object>
+  <object id="123" type="platform" x="910" y="560">
+   <polygon points="0,0 0,68 69.5,68.5"/>
+  </object>
+  <object id="125" type="tempPlatform" x="630" y="210" width="70" height="40"/>
+  <object id="126" type="movePlatform" x="1750" y="350">
+   <properties>
+    <property name="isHor" type="bool" value="false"/>
+    <property name="millis" type="int" value="2800"/>
+    <property name="speed" type="int" value="80"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="127" type="coin" x="1961.33" y="579.667">
+   <point/>
+  </object>
+  <object id="128" type="spike" x="1064.33" y="598.333">
+   <polygon points="0,0 -14.5,13 7.75,12"/>
+  </object>
+  <object id="129" type="spike" x="1073.33" y="610.333">
+   <polygon points="-1.75,-0.75 7.5,-13 17.75,-0.25"/>
+  </object>
+  <object id="130" type="spike" x="1089.33" y="607.333">
+   <polygon points="0,0 13.5,-15.75 29.5,0"/>
+  </object>
+  <object id="131" type="platform" x="1050" y="610.333" width="69.3333" height="19.3333"/>
+  <object id="132" type="laser" x="1611" y="376.75">
+   <properties>
+    <property name="color" value="#A0C181"/>
+    <property name="dir" value="left"/>
+    <property name="pauseTime" type="int" value="3000"/>
+    <property name="range" type="float" value="280"/>
+   </properties>
+   <point/>
+  </object>
+  <object id="133" type="platform" x="1616.75" y="370.75" width="14.75" height="27.75"/>
+  <object id="134" type="platform" x="1610" y="369" width="6.75" height="31"/>
+  <object id="135" type="platform" x="1260" y="350" width="70" height="70"/>
+  <object id="137" type="platform" x="1969.5" y="481.5" width="50.75" height="8.25"/>
+  <object id="138" type="platform" x="2891.13" y="361.875" width="46.5" height="47.5"/>
+  <object id="139" type="platform" x="2876.63" y="371.125" width="14.75" height="27.75"/>
+  <object id="140" type="platform" x="2869.88" y="369.375" width="6.75" height="31"/>
+  <object id="141" type="platform" x="2878.63" y="411.875" width="50.75" height="8.25"/>
+  <object id="142" type="platform" x="1610.25" y="419.5" width="70" height="70"/>
+  <object id="143" type="coin" x="2466.75" y="262.5">
+   <point/>
+  </object>
+  <object id="145" type="platform" x="2519.25" y="352">
+   <polygon points="0.75,-2 -68.5,67.5 0.5,67.25"/>
+  </object>
+  <object id="146" type="spike" x="2534" y="598">
+   <polygon points="0,0 -14.5,13 7.75,12"/>
+  </object>
+  <object id="147" type="spike" x="2543" y="610">
+   <polygon points="-1.75,-0.75 7.5,-13 17.75,-0.25"/>
+  </object>
+  <object id="148" type="spike" x="2559" y="607">
+   <polygon points="0,0 13.5,-15.75 29.5,0"/>
+  </object>
+  <object id="149" type="platform" x="2520.25" y="610" width="69.25" height="20.25"/>
+  <object id="154" type="platform" x="420" y="560" width="68.6667" height="16.6667"/>
+  <object id="155" type="platform" x="2590" y="423.5">
+   <polygon points="-0.909091,-3.63636 -0.5,67 71.5,67"/>
+  </object>
+  <object id="157" type="springboard" x="560" y="560">
+   <point/>
+  </object>
+  <object id="160" type="platform" x="560" y="597.667" width="71" height="32.6667"/>
+  <object id="161" type="coin" x="795.667" y="52.6667">
+   <point/>
+  </object>
+  <object id="162" type="springboard" x="2800" y="560">
+   <point/>
+  </object>
+  <object id="163" type="platform" x="2800.5" y="597" width="71" height="32.6667"/>
+  <object id="164" type="tempPlatform" x="280" y="560" width="70" height="40"/>
+  <object id="165" type="tempPlatform" x="560" y="210" width="70" height="40"/>
+ </objectgroup>
+</map>
