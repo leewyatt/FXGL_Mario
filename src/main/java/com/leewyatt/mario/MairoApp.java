@@ -33,9 +33,9 @@ import java.util.Map;
 
 /**
  *  FXGL is very interesting;
- *  I studied the teacher's course.
- *  add 2 new levels to the Mario game;
- *  Level6 and Level7
+ *  I studied the teacher's course;Teacher: @Almas Baimagambetov
+ *  add 2 new levels to the Mario game;(Level6 and Level7)
+ *  New elements: laser,springboard, spike, move_platform,temp_platform,ice_water
  */
 public class MairoApp extends GameApplication {
 
